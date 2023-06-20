@@ -1,0 +1,49 @@
+body {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.gugi-font {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(projects/book.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffc107;
+}
+
+#metropolitan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(projects/Seoul.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#province {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(projects/provinces.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#Foreign {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(projects/foreign.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.card-hover:hover {
+    background-color: #ffc10726;
+}

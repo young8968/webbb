@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LIBRARY MAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="project-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav-menu">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <a class="gugi-font navbar-brand" href="#home"><img src="projects/title_YELLOW.png" alt="로고">라이브러리 맵</a>
+          <div class="collapse navbar-collapse" id="nav-menu">
+            <ul class="navbar-nav ms-auto my-2">
+              <li class="nav-item"><a class="nav-link" href="#home">홈</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about-me">소개</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#metropolitan" role="button" data-bs-toggle="dropdown" aria-expanded="false">수도권</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Seoul">서울</a></li>
+                  <li><a class="dropdown-item" href="#Gyeonggi">경기</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#provinces">비수도권</a></li>
+              <li class="nav-item"><a class="nav-link" href="#foreign">외국</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">연락처</a></li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+    <header id="home" class="d-flex flex-column justify-content-evenly align-items-center vh-100 text-white">
+      <h1 class="display-3 fw-bold mb-5">LIBRARY MAP</h1>
+      <p class="lead mb-5">"낯선 동네에서도 마음껏 책 좀 읽어보자."</p>
+    </header>
+    <section class="container py-5" id="about-me">
+      <div class="text-center py-5">
+        <h2 class="fw-bold">LIBRARY MAP</h2>
+        <p class="lead text-muted">여행도 독서도 포기하기 싫은 그대를 위하여</p>
+      </div>
+      <div class="row justify-content-center align-items-center mb-5">
+        <div class="col-md-5">
+            <img src="projects/readbook.jpg" alt="책읽는 사람" class="img-fluid">
+        </div>
+        <div class="col-md-7 col-lg-5 px-lg-5">
+            <h3 class="fw-bold mb-3">"여행가서도 책은 읽고 싶어!"</h3>
+            <p class="lh-lg">"짐이 될까봐 별로 안 챙겼더니 읽을 책이 부족해. 여기 근처에 도서관이 있던가? 기껏 여기까지 왔는데
+              똑같은 도서관을 가긴 좀 그런가…? 어쩔 수 없지, 여기 있는 동안 독서 좀 포기하지 뭐."
+            </p>
+            <p class="lh-lg">이런 생각을 하는 게 나만은 아닐 거라고 믿으며, 이 웹페이지는 제작되었다. '기껏 여기까지 왔는데 가는 게 도서관이냐?'는 생각조차
+              못 할 특별한 도서관을 소개하고자 했다. 우리는 꿋꿋이 책을 읽을 것이고 여행 온 보람도 놓치지 않을 것이다. 모든 도서관을 담지는 못해도 특별한
+              도서관들은 모두 담으려 했다. 책을 마음껏 읽으며 특별한 추억도 쌓아보자.
+            </p>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="metropolitan">
+      <div class="container text-center text-white">
+          <h2 class="fw-bold mb-3">수도권 도서관</h2>
+          <p>수도권 도서관은 얼마나 좋을까? 여행 온 보람을 느낄 도서관도 당연히 많겠지?</p>
+          <div class="d-flex justify-content-evenly px-5 mt-4 w-50 m-auto">
+              <a href="https://lib.seoul.go.kr/slibsrch/main" target="_blank" class="btn btn-warning rounded-pill btn-lg px-4"><i class="bi bi-cursor-fill">서울 도서관 검색</i></a>
+              <a href="https://www.library.kr/cyber/libSearch/libraryList.do" target="_blank" class="btn btn-warning rounded-pill btn-lg px-4"><i class="bi bi-cursor">경기 도서관 검색</i></a>
+          </div>
+      </div>
+    </section>
+    <section class="bg-dark py-5" id="Seoul">
+      <div class="container overflow-hidden">
+          <div class="text-center text-white py-5">
+              <h2 class="fw-bold mb-3">서울 도서관</h2>
+              <p>여기엔 가볼 만한 도서관이 어디있지?</p>
+          </div>
+          <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/gangnam1.jpg" alt="도곡정보문화도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">도곡정보문화도서관</h3>
+                        <p class="card-text">서울특별시 강남구 도곡로18길 57</p>
+                        <a href="https://library.gangnam.go.kr/dogoklib/index.do" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/gangnam2.jpg" alt="별마당도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">별마당 도서관</h3>
+                        <p class="card-text">서울특별시 강남구 영동대로 513 스타필드 코엑스몰 B1</p>
+                        <a href="https://m.starfield.co.kr/coexmall/tenant/starfieldLibrary" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/seoul1.jpg" alt="청운문학도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">청운문학도서관</h3>
+                      <p class="card-text">서울특별시 종로구 청운효자동 자하문로36길 40</p>
+                      <a href="https://lib.jongno.go.kr/menu/subpage/subpage_01/sub032.php" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/seoul2.jpg" alt="우리소리도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">우리소리도서관</h3>
+                      <p class="card-text">서울특별시 종로구 삼일대로30길 47</p>
+                      <a href="https://www.smalllibrary.org/library/detail/1971217" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="container overflow-hidden py-5">
+      <div class="row pb-5 gy-4">
+        <div class="col-sm-6 col-lg">
+            <div class="card">
+                <img src="projects/seoul3.jpg" alt="삼청공원숲속도서관" class="card-img-top">
+                <div class="card-body text-center">
+                    <h3 class="card-title fs-4">삼청공원숲속도서관</h3>
+                    <p class="card-text">서울특별시 종로구 와룡공원길</p>
+                    <a href="https://www.smalllibrary.org/library/detail/1047335" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg">
+            <div class="card">
+                <img src="projects/seoul4.jpg" alt="정독도서관" class="card-img-top">
+                <div class="card-body text-center">
+                    <h3 class="card-title fs-4">정독도서관</h3>
+                    <p class="card-text">서울특별시 종로구 북촌로5길 48</p>
+                    <a href="https://jdlib.sen.go.kr/jdlib/index.do" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg">
+          <div class="card">
+              <img src="projects/seoul5.jpg" alt="한내지혜의숲" class="card-img-top">
+              <div class="card-body text-center">
+                  <h3 class="card-title fs-4">한내지혜의숲</h3>
+                  <p class="card-text">서울특별시 노원구 마들로 86</p>
+                  <a href="https://www.smalllibrary.org/program/bestPractice/1301?&libraryName=&currentPage=11" target="_blank" class="btn btn-warning btn-sm">read more</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg">
+          <div class="card">
+              <img src="projects/seoul6.jpg" alt="서초그림책도서관" class="card-img-top">
+              <div class="card-body text-center">
+                  <h3 class="card-title fs-4">서초그림책도서관</h3>
+                  <p class="card-text">서울특별시 서초구 명달로 150</p>
+                  <a href="https://picturebook.seocholib.or.kr/" target="_blank" class="btn btn-warning btn-sm">read more</a>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    </section>
+    <section class="bg-dark py-5">
+      <div class="container overflow-hidden">
+          <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/seoul7.jpg" alt="매거진라이브러리" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">DDP 매거진 라이브러리</h3>
+                        <p class="card-text">서울 중구 을지로 281</p>
+                        <a href="https://www.ddp.or.kr/?menuno=769" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/seoul8.jpg" alt="씨네라이브러리" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">CGV 명동역 씨네라이브러리</h3>
+                        <p class="card-text">서울특별시 중구 퇴계로 123</p>
+                        <a href="http://www.cgv.co.kr/theaters/?theaterCode=0105" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/seoul9.png" alt="서울도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">서울도서관</h3>
+                      <p class="card-text">서울특별시 중구 태평로1가 세종대로 110</p>
+                      <a href="https://lib.seoul.go.kr/" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/seoul10.jpg" alt="다산성곽도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">다산성곽도서관</h3>
+                      <p class="card-text">서울특별시 중구 동호로17길 173</p>
+                      <a href="https://www.junggulib.or.kr/SJGL/menu/10047/contents/40007/contents.do" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="container overflow-hidden py-5">
+      <div class="row pb-5 gy-4">
+        <div class="col-sm-6 col-lg">
+            <div class="card">
+                <img src="projects/seoul11.jpg" alt="원당마을한옥도서관" class="card-img-top">
+                <div class="card-body text-center">
+                    <h3 class="card-title fs-4">원당마을 한옥도서관</h3>
+                    <p class="card-text">서울특별시 도봉구 해등로32가길 17</p>
+                    <a href="https://www.unilib.dobong.kr/contents.do?idx=325" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg">
+            <div class="card">
+                <img src="projects/seoul12.jpg" alt="김근태 기념도서관" class="card-img-top">
+                <div class="card-body text-center">
+                    <h3 class="card-title fs-4">김근태 기념도서관</h3>
+                    <p class="card-text">서울특별시 도봉구 도봉동 279</p>
+                    <a href="https://www.unilib.dobong.kr/contents.do?idx=310" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg">
+          <div class="card">
+              <img src="projects/seoul13.jpg" alt="양천공원책쉽터" class="card-img-top">
+              <div class="card-body text-center">
+                  <h3 class="card-title fs-4">양천공원 책쉼터</h3>
+                  <p class="card-text">서울특별시 양천구 목동동로</p>
+                  <a href="https://www.yangcheon.go.kr/site/yangcheon/05/10517030100002021091702.jsp" target="_blank" class="btn btn-warning btn-sm">read more</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg">
+          <div class="card">
+              <img src="projects/seoul14.jpg" alt="양천중앙도서관" class="card-img-top">
+              <div class="card-body text-center">
+                  <h3 class="card-title fs-4">양천중앙도서관</h3>
+                  <p class="card-text">서울특별시 양천구 신정로7길 81</p>
+                  <a href="https://lib.yangcheon.or.kr/yclib/" target="_blank" class="btn btn-warning btn-sm">read more</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="bg-dark py-5">
+      <div class="container overflow-hidden">
+          <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/seoul15.jpg" alt="금천구립독산도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">금천구립독산도서관</h3>
+                        <p class="card-text">서울특별시 금천구 독산동 독산로54길 114</p>
+                        <a href="https://www.geumcheon.go.kr/portal/contents.do?key=968" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/seoul16.jpg" alt="책달샘숲속도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">책달샘숲속도서관</h3>
+                        <p class="card-text">서울특별시 금천구 독산로54길 188</p>
+                        <a href="https://www.smalllibrary.org/library/detail/2489995" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/seoul17.jpg" alt="아차산숲속도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">아차산숲속도서관</h3>
+                      <p class="card-text">서울특별시 광진구 영화사로 139</p>
+                      <a href="https://www.gwangjinlib.seoul.kr/achasan/index.do" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/seoul18.jpg" alt="식물전문도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">서울식물원 식물전문도서관</h3>
+                      <p class="card-text">서울특별시 강서구 마곡동 161</p>
+                      <a href="https://botanicpark.seoul.go.kr/lib/#/" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="container overflow-hidden py-5" id="Gyeonggi">
+      <div class="text-center py-5">
+          <h2 class="fw-bold">경기도 도서관</h2>
+          <p class="lead text-muted">여기엔 가볼 만한 도서관이 어디있지?</p>
+      </div>
+      <div class="row pb-5 gy-4">
+          <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/gyeonggi1.jpg" alt="의정부과학도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">의정부 과학도서관</h3>
+                      <p class="card-text">경기도 의정부시 추동로124번길 52</p>
+                      <a href="https://www.uilib.go.kr/science/index.do" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/gyeonggi2.jpg" alt="의정부미술도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">의정부 미술도서관</h3>
+                      <p class="card-text">경기도 의정부시 민락로 248</p>
+                      <a href="https://www.uilib.go.kr/art/index.do" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/gyeonggi3.jpg" alt="의정부음악도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">의정부 음악도서관</h3>
+                      <p class="card-text">경기도 의정부시 장곡로 280</p>
+                      <a href="https://www.uilib.go.kr/music/index.do" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/gyeonggi4.jpg" alt="의정부정보도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">의정부 정보도서관</h3>
+                      <p class="card-text">경기도 의정부시 의정로 41</p>
+                      <a href="#" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="bg-dark py-5">
+      <div class="container overflow-hidden">
+          <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/gyeonggi5.jpg" alt="부천시립오정도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">부천시립 오정도서관</h3>
+                        <p class="card-text">경기도 부천시 성오로 172</p>
+                        <a href="https://www.bcl.go.kr/site/homepage/menu/viewMenu?menuid=019006008001011" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/gyeonggi6.jpg" alt="안양파빌리온" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">안양 파빌리온</h3>
+                        <p class="card-text">경기도 안양시 만안구 예술공원로 180</p>
+                        <a href="https://m.ayac.or.kr/base/contents/view?contentsNo=25&menuLevel=3&menuNo=31" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/gyeonggi7.jpg" alt="꿈두레도서관" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">꿈두레 도서관</h3>
+                      <p class="card-text">경기도 오산시 금암동 439</p>
+                      <a href="https://www.osanlibrary.go.kr/kkumdure/main.do" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+                  <img src="projects/gyeonggi8.jpg" alt="안산미디어라이브러리" class="card-img-top">
+                  <div class="card-body text-center">
+                      <h3 class="card-title fs-4">안산미디어라이브러리</h3>
+                      <p class="card-text">경기도 안산시 단원구 광덕1로 198</p>
+                      <a href="http://lib.ansan.go.kr/medialib/" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="province">
+        <div class="container text-center text-white">
+            <h2 class="fw-bold mb-3">비수도권 도서관</h2>
+            <p>우리나라는 생각보다 넓고, 좋은 도서관은 많더라.</p>
+            <div class="d-flex justify-content-evenly px-5 mt-4 w-50 m-auto">
+                <a href="https://www.libsta.go.kr/statistics/public/main" target="_blank" class="btn btn-warning rounded-pill btn-lg px-4"><i class="bi bi-search">전국도서관통계</i></a>
+            </div>
+        </div>
+    </section>
+    <section class="container overflow-hidden py-5" id="provinces">
+        <div class="text-center py-5">
+            <h2 class="fw-bold">지역별 대표 도서관</h2>
+            <p class="lead text-muted">각 지역 대표 도서관 한 번쯤은 가봐야지!</p>
+        </div>
+        <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces1.jpg" alt="부산도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">부산도서관</h3>
+                        <p class="card-text">부산광역시 사상구 사상로310번길 33</p>
+                        <a href="https://library.busan.go.kr/busanlibrary/index.do" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces2.jpg" alt="대구광역시립중앙도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">대구광역시립중앙도서관</h3>
+                        <p class="card-text">대구광역시 중구 공평로10길 25</p>
+                        <a href="https://library.daegu.go.kr/jungang/index.do" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces3.jpg" alt="대전광역시한밭도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">대전광역시 한밭도서관</h3>
+                        <p class="card-text">대전광역시 중구 서문로 10</p>
+                        <a href="https://www.daejeon.go.kr/hanbatlibrary/index.do" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="bg-dark py-5">
+        <div class="container overflow-hidden">
+            <div class="row pb-5 gy-4">
+              <div class="col-sm-6 col-lg">
+                  <div class="card">
+                      <img src="projects/provinces4.jpg" alt="울산도서관" class="card-img-top">
+                      <div class="card-body text-center">
+                          <h3 class="card-title fs-4">울산도서관</h3>
+                          <p class="card-text">울산광역시 남구 꽃대나리로 140</p>
+                          <a href="https://library.ulsan.go.kr/" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-lg">
+                  <div class="card">
+                      <img src="projects/provinces5.jpg" alt="무등도서관" class="card-img-top">
+                      <div class="card-body text-center">
+                          <h3 class="card-title fs-4">무등도서관</h3>
+                          <p class="card-text">광주광역시 북구 면앙로 130</p>
+                          <a href="https://citylib.gwangju.kr/main" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces6.jpg" alt="국립세종도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">국립세종도서관</h3>
+                        <p class="card-text">세종특별자치시 다솜3로 48</p>
+                        <a href="https://sejong.nl.go.kr/" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="container overflow-hidden py-5">
+        <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces7.jpg" alt="세종시립도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">세종시립도서관</h3>
+                        <p class="card-text">세종특별자치시 세종로 1207</p>
+                        <a href="https://lib.sejong.go.kr/main/main.do" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces2.jpg" alt="춘천시립도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">춘천시립도서관</h3>
+                        <p class="card-text">강원도 춘천시 우석로 100</p>
+                        <a href="https://library.chuncheon.go.kr/home.do" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces3.jpg" alt="청주시립도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">청주시립도서관</h3>
+                        <p class="card-text">충청북도 청주시 상당구 용암로 55</p>
+                        <a href="https://library.cheongju.go.kr/lib/front/" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="bg-dark py-5">
+        <div class="container overflow-hidden">
+            <div class="row pb-5 gy-4">
+              <div class="col-sm-6 col-lg">
+                  <div class="card">
+                      <img src="projects/provinces10.jpg" alt="충남도서관" class="card-img-top">
+                      <div class="card-body text-center">
+                          <h3 class="card-title fs-4">충남도서관</h3>
+                          <p class="card-text">충청남도 홍성군 홍북읍 도청대로 577</p>
+                          <a href="https://library.chungnam.go.kr/main.do" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-lg">
+                  <div class="card">
+                      <img src="projects/provinces11.jpg" alt="전북도청도서관" class="card-img-top">
+                      <div class="card-body text-center">
+                          <h3 class="card-title fs-4">전북도청도서관</h3>
+                          <p class="card-text">전라북도 전주시 완산구 효자로 225</p>
+                          <a href="https://library.jeonbuk.go.kr/main/main.php" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces12.jpg" alt="전라남도립도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">전라남도립도서관</h3>
+                        <p class="card-text">전라남도 무안군 삼향읍 남악로 210</p>
+                        <a href="https://lib.jeonnam.go.kr/" target="_blank" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="container overflow-hidden py-5">
+        <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces13.jpg" alt="경북도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">경북도서관</h3>
+                        <p class="card-text">경상북도 예천군 호명면 도청대로 200</p>
+                        <a href="https://www.gb.go.kr/lib/main.tc" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces14.jpg" alt="경남대표도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">경남대표도서관</h3>
+                        <p class="card-text">경상남도 창원시 의창구 사림로45번길 59</p>
+                        <a href="https://lib.gyeongnam.go.kr/index.lib" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="projects/provinces15.jpg" alt="한라도서관" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">한라도서관</h3>
+                        <p class="card-text">제주특별자치도 제주시 오남로 221</p>
+                        <a href="https://www.jeju.go.kr/lib/lib/halla/use.htm" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="py-5" id="Foreign">
+        <div class="container text-center text-white">
+            <h2 class="fw-bold mb-3">외국 도서관</h2>
+            <p>새로운 나라, 새로운 언어, 새로운 도서관!</p>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#attention"
+            class="btn btn-outline-warning rounded-pill"><i class="bi bi-file-earmark-plus-fill"></i></button>
+
+          <div class="modal fade" id="attention" tabindex="-1" aria-labelledby="attention"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-dark fs-5" id="attention">안내사항</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-muted">현재 웹사이트 속 외국 도서관의 숫자와 정보량의 차이가 국내 도서관과 현저히 차이나는 점 양해 부탁드립니다.</p>
+                        <p class="text-muted">검색 능력과 언어 능력의 한계로 외국 도서관 조사가 원활히 진행되지 않아 생겨난 일 입니다. 조사가 완료되는 대로
+                            바로바로 업데이트될 예정입니다. 다만 그 상세한 예정을 정확히 말씀드릴 수 없는 점 또한 사죄를 드립니다. 이 웹사이트로 인하여 더 많
+                            은 편의를 누릴 수 있도록 열심히 힘써보겠습니다. 다시 한 번 사과드리며, 동시에 이용자 분들의 드넓은 이해에 감사드립니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </section>
+      <section class="bg-dark py-5" id="foreign">
+
+        <div class="container overflow-hidden">
+            <div class="text-center text-white py-5">
+                <h2 class="fw-bold mb-3">세계 각지의 도서관</h2>
+                <p>사람도 다양하고 문화도 다양하고 언어도 다양하지. 당연히 도서관도 다양하겠지?</p>
+            </div>
+
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <img src="projects/foreign1.jpg" alt="영국 국립도서관" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="projects/foreign2.jpg" alt="스페인 국립도서관" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="projects/foreign3.jpg" alt="오스트리아 국립도서관" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="projects/foreign4.jpg" alt="코스타리카 국립도서관" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="projects/foreign5.jpg" alt="자메이카 국립도서관" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="projects/foreign6.jpg" alt="트리니다드토바고 국립도서관" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container overflow-hidden py-5 text-center" id="contact">
+      <div class="py-5">
+          <h2 class="fw-bold">Contact</h2>
+          <p class="lead text-muted">정보에 수정이 필요한 경우나 문의사항이 있는 경우 편히 연락해주세요.</p>
+      </div>
+      <div class="row py-5 gy-3">
+          <div class="col-md-4">
+            <div class="card-hover shadow p-4 border-bottom border-4 border-secondary">
+                <i class="bi bi-envelope-paper fs-5 text-secondary"></i>
+                  <h3 class="fw-bold fs-5 py-2">이메일</h3>
+                  <hr>
+                  <p class="text-muted">00000000@naver.com</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+                <div class="card-hover shadow p-4 border-bottom border-4 border-secondary">
+                  <i class="bi bi-telephone-fill fs-5 text-secondary"></i>
+                  <h3 class="fw-bold fs-5 py-2">전화번호</h3>
+                  <hr>
+                  <p class="text-muted">010-000-0000</p>
+                </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-hover shadow p-4 border-bottom border-4 border-secondary">
+                <i class="bi bi-mailbox fs-5 text-secondary"></i>
+                  <h3 class="fw-bold fs-5 py-2">주소</h3>
+                  <hr>
+                  <p class="text-muted">00시 00구 000동</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-white">
+      <div class="container text-center">
+          <p class="py-4 mb-0">Copyright <i class="bi bi-c-circle"></i> 2023 Designed by <a class="gugi-font link-warning text-decoration-none">라이브러리 맵<img src="projects/title_white.png" alt="로고"></a></p>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
